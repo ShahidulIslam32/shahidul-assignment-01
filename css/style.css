@@ -1,42 +1,12 @@
 /*font-family: 'Ubuntu', sans-serif;*/
 /*font-family: 'Work Sans', sans-serif;*/
 
-/* wrapper code start */
+/* button universal code */
 
-.wrapper{
-    width: 960px;
-    margin: 80px auto;
+.kalachan {
+    display: flex;
 }
-.header-left{
-    width: 500px;
-    float: left;
-    font-family: 'Ubuntu', sans-serif;
-}
-.header-left h1{
-    font-size: 36px;
-    line-height: 50px;
-    color: #605b5b;
-    border-left: 4px solid coral;
-    padding: 12px;
-}
-.header-left span{
-    color: slateblue;
-}
-.header-left p{
-    text-align: justify;
-    text-transform: capitalize;
-    line-height: 20px;
-    color: #605b5b;
-    font-weight: 450;
-}
-.down-pera p{
-    text-align: justify;
-    line-height: 20px;
-    color: #605b5b;
-    font-weight: 400;
-}
-/* button unicersal code */
-.button{
+.button {
     width: 156px;
     padding: 8px;
     background: mediumslateblue;
@@ -45,12 +15,112 @@
     font-size: 17px;
     border-radius: 5px;
 }
-/* header-right-image start */
-
-.header-right-image{
-    float: right;
-    width: 350px;
+/* header code */
+.header-left{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 4%;
 }
-.header-right-image img{
-    width: 350px;
+.header-left h1{
+    color: #605b5b;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+    border-left: 4px solid crimson;
+    padding: 13px;
+    line-height: 46px;
+}
+.header-left p{
+    color: #605b5b;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.header-left span{
+    color: slateblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header-img{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.header-img img{
+    width: 60%;
+}
+
+/* my mission code start */
+.mission-text h2{
+    text-align: center;
+    margin-top: 60px;
+    font-family:'Lato';
+    font-size: 32px;
+    font-weight: 900;
+    color: #13103A;
+}
+.mission-text span{
+    color: slateblue;
+    font-weight: 900;
+}
+/* individual missions */
+
+.missions-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.mission{
+    width: 290px;
+    height:290px;
+    background:#EDF5F6;
+    float: left;
+    margin-right: 20px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.vision{
+    width: 290px;
+    height: 290px;
+    background:#FFEEEE ;
+    float: left;
+    margin-right: 20px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.goals{
+    width: 290px;
+    height: 290px;
+    background:#FFF4D6;
+    float: left;
+    margin-right: 20px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.missions-wrapper img{
+    width: 120px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.missions-wrapper h3{
+    padding:5px;
+    margin-left: 18px;
+    margin-top: 0;
+    font-size: 21px;
+    font-family: Lato;
+    font-weight: 700;
+}
+.missions-wrapper p{
+    margin-left: 13px;
+    margin-top: -17px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    width: 250px;
+    padding: 5px;
+    color: #605b5b;
+    font-weight: bold;
 }
