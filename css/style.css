@@ -3,7 +3,7 @@
 
 /* button universal code */
 
-.kalachan {
+.header-wrap{
     display: flex;
 }
 .button {
@@ -14,6 +14,7 @@
     color: #fff;
     font-size: 17px;
     border-radius: 5px;
+    margin-top:17px;
 }
 /* header code */
 .header-left{
@@ -123,4 +124,108 @@
     padding: 5px;
     color: #605b5b;
     font-weight: bold;
+}
+/* another section start */
+
+.another-left-img img{
+    width: 280px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.another-right-text{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    padding-left: 4%;
+}
+.another-right-text p{
+    color: #605b5b;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 22px;
+    margin-top: 0;
+}
+.another-right-text h2{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+    padding: 13px;
+    line-height: 46px;
+}
+/* third section start */
+
+.third-section-left{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: -239px;
+    padding-left: 4%;
+}
+.third-section-left h2{
+    color: #605b5b;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+    padding: 13px;
+    line-height: 46px;
+}
+.third-section-left p{
+    color: #605b5b;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+
+.third-section-img{
+    width: 40%;
+    float: right;
+    margin-top: -19%;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.third-section-img img {
+    width: 60%;
+}
+
+/* portfolio start */
+.portfolio-wrapper{
+    width:960px;
+    margin: 140px auto;
+}
+.portfolio-heading h2{
+    margin-top: 850px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.portfolio-heading span{
+    color: slateblue;
+}
+.portfolio-work-example img{
+    width:340px;
+    height: 280px;
+    float: left;
+    margin-top: 70px;
+}
+.work-description{
+    width:340px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 45px;
+}
+.work-description h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+.work-description span{
+    color: slateblue;
+}
+.work-description p{
+    font-family:"Lato Medium";
+    color: #605b5b;
 }
