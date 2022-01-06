@@ -1,7 +1,5 @@
-/*font-family: 'Ubuntu', sans-serif;*/
-/*font-family: 'Work Sans', sans-serif;*/
 
-/* button universal code */
+/* button code */
 
 .header-wrap{
     display: flex;
@@ -67,7 +65,7 @@
     color: slateblue;
     font-weight: 900;
 }
-/* individual missions */
+/* individual missions code start */
 
 .missions-wrapper{
     display: flex;
@@ -190,7 +188,7 @@
     width: 60%;
 }
 
-/* portfolio start */
+/* portfolio section start */
 .portfolio-wrapper{
     width:960px;
     margin: 140px auto;
@@ -229,3 +227,32 @@
     font-family:"Lato Medium";
     color: #605b5b;
 }
+/* footer part start */
+
+.footer-heading{
+    margin-top: 480px;
+    padding:30px;
+    background: #0B0D17;
+    color: white;
+    text-align: center;
+    margin-left: -15px;
+    margin-bottom: -20px;
+    margin-right:-8px;
+
+}
+.footer-heading h2{
+    font-family: Aaargh;
+}
+.footer-heading span{
+    color: crimson;
+}
+.footer-heading p{
+    color: darkgrey;
+    text-align: center;
+    margin-top: 7px;
+    font-family: "Leelawadee UI";
+}
+/* footer part end */
+
+
+/* main style are end here */
